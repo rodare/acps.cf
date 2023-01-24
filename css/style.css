@@ -211,6 +211,23 @@ header label{
     box-sizing:border-box;
 }
 
+.responsive3{
+    width: 100%;
+    /* height: 0; */
+    padding-bottom: 1.26%;
+    position: relative;
+    overflow-x:auto;
+}
+
+.responsive3 iframe{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top:0;
+    padding-top: 0;
+    box-sizing:border-box;
+}
+
 
 select{
   width:190px;
