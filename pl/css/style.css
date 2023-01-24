@@ -12,7 +12,7 @@ body{
   background: url(../images/fachada.jpg) no-repeat;
   background-size: cover;
   background-position: center;*/
-  background-color: rgb(199 146 92 / 14%);
+  background-color: rgba(4,20,84,0.1);
 }
 
 li{
@@ -34,7 +34,6 @@ li{
 .post:not(:last-child){
    margin-bottom: 30px;
 }
-
 
 a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
 a.gflag img {border:0;}
@@ -64,7 +63,7 @@ body {top:0 !important;}
 header{
   position:fixed;
   top:201px; left:0;right:0;
-  background: #6a6057;
+  background: #4a5b76;
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
   padding: 0px 3% 0% 0%;
   display: flex;
@@ -125,7 +124,7 @@ header nav ul li a:hover{
 header nav ul li ul{
   position: absolute;
   left:0;
-  width:154px;
+  width:164px;
   background:dimgrey;
   display: none;
 }
@@ -136,7 +135,7 @@ header nav ul li ul li{
 }
 
 header nav ul li ul li ul{
-  left:154px;
+  left:164px;
   top: 0px;
 }
 
@@ -151,7 +150,7 @@ header nav ul li:hover > ul{
 
 header label{
   font-size: 20px;
-  color: #ffba68;
+  color: #FA6114;
   cursor: pointer;
   display: none;
   padding-right: 96px;
@@ -185,6 +184,7 @@ header label{
     position: relative;
     overflow-x:auto;
 }
+
 .responsive iframe{
     position: absolute;
     width: 100%;
@@ -193,7 +193,6 @@ header label{
     padding-top: 0;
     box-sizing:border-box;
 }
-
 
 .responsive2{
     width: 100%;
@@ -211,6 +210,24 @@ header label{
     padding-top: 0;
     box-sizing:border-box;
 }
+
+.responsive3{
+    width: 100%;
+    /* height: 0; */
+    padding-bottom: 1.26%;
+    position: relative;
+    overflow-x:auto;
+}
+
+.responsive3 iframe{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top:0;
+    padding-top: 0;
+    box-sizing:border-box;
+}
+
 
 select{
   width:190px;
@@ -391,5 +408,7 @@ tr:nth-child(even){
         width: 100%;
         padding: 0;
       }
+
+
 
 }
