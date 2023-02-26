@@ -250,6 +250,12 @@ select{
 
 }
 
+body .c5{
+
+  width: 100% !important;
+}
+
+
 table{
   width:100% !important;
 }
